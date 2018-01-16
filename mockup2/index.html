@@ -16,49 +16,52 @@
             <li><a href="#">Home</a></li>
             <li><a href="#">IMG</a></li>
             <li><a href="#">Table</a></li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Autre ...<span class="caret"></span></a>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">Autre ...<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
                 <li><a href="#">Surprise !</a></li>
                 <li><a href="#">blablabla</a></li>
               </ul>
             </li>
+          </ul>
+          <ul>
             <form class="navbar-form navbar-right inline-form">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Vous cherchez quoi ?">
+                <input type="search" class="input-sm form-control" placeholder="Vous cherchez quoi ?">
+                <button type="submit" class="btn btn-default">Rechercher</button>
               </div>
-              <button type="submit" class="btn btn-default">Rechercher</button>
             </form>
           </ul>
         </div>
       </nav>
 
-
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 col-xs-12">
         <h1 class="text-center">------</h1>              <!--???-->
         <h1 class="text-center">GO AWAY !</h1>
-        <p class="text-center" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, </p>
+        <p class="text-center" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, </p>
         <button class="center-block" type="button" name="button">Sign in !</button>
       </div>
     </div>
     <div class="page-header text-center">
-      <h1>Exemple page header<small> Small note header</small></h1>
+      <h1>Page header<small> Small note header</small></h1>
     </div> <!--fin page header-->
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <img src="IMG/parap.jpg" class="img-thumbnail img-responsive">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <img src="IMG/parap.jpg" class="img-thumbnail img-responsive">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-12">
           <img src="IMG/parap.jpg" class="img-thumbnail img-responsive">
         </div>
         <div>
         </div>
       </div>
-        <nav aria-label="Page navigation example">
+        <nav aria-label="Page navigation" class="text center">
           <ul class="pagination">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
@@ -82,34 +85,43 @@
       <div class="col-md-4">
         <img src="IMG/para3.jpg" class="img-responsive">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-8 col-xs-12">
         <div class="page-header text-center">
-          <h1>Exemple page header<small> Small note header</small></h1>
+          <h1>Page header<small> Small note header</small></h1>
         </div> <!--fin page header-->
-        <p class="text-center" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, </p>
+        <p class="text-center" >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+          felis, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 
-        <div class="progress"> <!--progressbar "success" = VERT-->
+        <div class="progress col-md-5 col-xs-12"> <!--progressbar "success" = VERT-->
           <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
             aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
             <span class="sr-only">40% effectué (success)</span>
           </div>
         </div>
 
-        <div class="progress">   <!--progressbar "info" = BLEU-->
-          <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
-            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-            <span class="sr-only">20% effectué </span>
-          </div>
+        <div class="col-md-1">
         </div>
 
-        <div class="progress"> <!--progressbar "warning" = ORANGE-->
+        <div class="progress col-md-5 col-xs-12"> <!--progressbar "warning" = ORANGE-->
           <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
             <span class="sr-only">60% effectué (warning)</span>
           </div>
         </div>
 
-        <div class="progress">  <!--progressbar "danger" = VERT-->
+        <div class="progress col-md-5 col-xs-12">   <!--progressbar "info" = BLEU-->
+          <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+            aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+            <span class="sr-only">20% effectué </span>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+        </div>
+
+        <div class="progress col-md-5 col-xs-12">  <!--progressbar "danger" = VERT-->
           <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar"
             aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
             <span class="sr-only">80% effectué (danger)</span>
@@ -122,30 +134,33 @@
     <footer class="navbar navbar-default navbar-bottom navbar-inverse">
         <div class="container-fluid text-center">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-4">
                   <p>Découvrez nos music:
                     <button type="button" class="btn btn-default btn-sm">
-                    <span class="glyphicon glyphicon-heart"></span> Partage !</button>
+                    <span class="glyphicon glyphicon-heart fa-2x"></span> Partage !</button>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-xs-4">
                   Découvrez nos music:
                     <button type="button" class="btn btn-default btn-sm">
-                    <span class="glyphicon glyphicon-music"></span> Music !</button>
+                    <span class="glyphicon glyphicon-music fa-2x"></span> Music !</button>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-4 col-xs-4">
                   Laissez un commentaire:
                     <button type="button" class="btn btn-default btn-sm">
-                    <span class="glyphicon glyphicon-comment"></span> Commente !</button>
+                    <span class="glyphicon glyphicon-comment fa-2x"></span> Commente !</button>
                   </p>
                 </div>
             </div>
         </div>
     </footer>
   </div> <!--fin de container-fluid-->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
     <script src="js/bootstrap.min.js"></script>
 
   </body>
